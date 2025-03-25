@@ -12,10 +12,10 @@ const ProjectCard = ({ project }) => {
             <span key={index} className="tech-tag">{tech}</span>
           ))}
         </div>
-        <div className="project-links">
+        {/* <div className="project-links">
           <a href={project.liveUrl} className="project-link">Live Demo</a>
           <a href={project.codeUrl} className="project-link">View Code</a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

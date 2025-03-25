@@ -22,15 +22,15 @@ const Projects = () => {
       liveUrl: '#',
       codeUrl: '#'
     },
-    {
-      id: 3,
-      title: 'Weather Dashboard',
-      description: 'Real-time weather information with 5-day forecast.',
-      technologies: ['JavaScript', 'API Integration', 'CSS3'],
-      imageUrl: 'https://via.placeholder.com/300',
-      liveUrl: '#',
-      codeUrl: '#'
-    }
+    // {
+    //   id: 3,
+    //   title: 'Weather Dashboard',
+    //   description: 'Real-time weather information with 5-day forecast.',
+    //   technologies: ['JavaScript', 'API Integration', 'CSS3'],
+    //   imageUrl: 'https://via.placeholder.com/300',
+    //   liveUrl: '#',
+    //   codeUrl: '#'
+    // }
   ];
 
   return (
