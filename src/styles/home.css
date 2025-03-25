@@ -35,8 +35,9 @@
   }
   
   .home-image img {
-    max-width: 100%;
+    max-width: 25%;
     border-radius: 10px;
+    box-decoration-break: clone;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   }
   

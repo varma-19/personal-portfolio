@@ -3,7 +3,7 @@ import '../styles/about.css';
 
 const About = () => {
   return (
-    <section className="about-section">
+    <section className="about-section container-fluid">
       <h2>About Me</h2>
       <div className="about-content">
         <div className="about-text">
@@ -24,7 +24,7 @@ const About = () => {
           </ul>
         </div>
         <div className="about-image">
-          <img src="https://via.placeholder.com/300" alt="About" />
+          <img src="../images/about.jpg" alt="About" />
         </div>
       </div>
     </section>

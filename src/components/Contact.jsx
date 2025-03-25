@@ -30,12 +30,12 @@ const Contact = () => {
       <div className="contact-container">
         <div className="contact-info">
           <h3>Contact Information</h3>
-          <p>Email: your.email@example.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Email:manikantavarmabommidi@gmail.com</p>
+          <p>Phone:8099352779</p>
           <div className="social-links">
-            <a href="#" className="social-icon">LinkedIn</a>
-            <a href="#" className="social-icon">GitHub</a>
-            <a href="#" className="social-icon">Twitter</a>
+            <a href="https://www.linkedin.com/in/manikanta-varma-bommidi/" className="social-icon">LinkedIn</a>
+            <a href="https://github.com/dashboard" className="social-icon">GitHub</a>
+            <a href="https://www.naukri.com/mnjuser/homepage" className="social-icon">Naukri</a>
           </div>
         </div>
         <form className="contact-form" onSubmit={handleSubmit}>
