@@ -1,0 +1,41 @@
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .nav-menu {
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 2rem;
+  }
+  
+  .nav-links {
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links:hover {
+    color: var(--primary-color);
+  }
+  
+  /* Mobile menu styles would go here */
